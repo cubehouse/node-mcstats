@@ -1,4 +1,4 @@
-# node-mcstats
+# Minecraft Server Statistics Fetcher for Node.JS
 ## Basics
 
 This is a simple Node.JS module to collect basic statistics from remote Minecraft servers.
