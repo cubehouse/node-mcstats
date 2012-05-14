@@ -29,7 +29,7 @@ function fetch(server, port, cb){
     s.on('data', (function(cb){
         return function(data){
             // callback array with data
-            var res = data.substring(3).replace(/\u0gdf000/g, "").split(data[0]);
+            var res = data.substring(3).split(data[0]);
             cb({
                 motd: decode(res[0]),
                 players: decode(res[1]),
